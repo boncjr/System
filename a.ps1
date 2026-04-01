@@ -122,6 +122,6 @@ $timer.Interval = 1000
 $timer.Add_Tick({ Update-Stats })
 
 $timer.Start()
-Update-Stats()
+update-Stats()
 
 $form.ShowDialog()
